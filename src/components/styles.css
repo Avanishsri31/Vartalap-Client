@@ -1,0 +1,28 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  
+}
+
+.message-footer {
+  font-size: 12px;
+  align-self: flex-end;
+  font-weight: 400;
+  color:white
+}
+
+.messages1 {
+  max-height: calc(100vh - 15rem);
+  overflow-y: hidden;
+  padding: 0 2rem;
+}
+
+.messages1:hover {
+  overflow-y: scroll;
+}
+
+
+
+
