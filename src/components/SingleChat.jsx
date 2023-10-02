@@ -1,5 +1,5 @@
 import { FormControl } from "@chakra-ui/form-control";
-import { Input } from "@chakra-ui/input";
+// import { Input } from "@chakra-ui/input";
 import { Box, Text } from "@chakra-ui/layout";
 import "./styles.css";
 import { IconButton, Spinner, useToast } from "@chakra-ui/react";
@@ -15,7 +15,7 @@ import io from "socket.io-client";
 import InputEmoji from "react-input-emoji";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "http://localhost:5000"; 
+const ENDPOINT = "https://vartalap-server.onrender.com"; 
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
