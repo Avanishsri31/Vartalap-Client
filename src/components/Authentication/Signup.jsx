@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "/api/user",
+        "https://vartalap-server.onrender.com/api/user",
         {
           name,
           email,
